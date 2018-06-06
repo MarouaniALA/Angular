@@ -1,0 +1,6 @@
+<div *ngIf="trouve">
+<h2>{{ name }}</h2>
+<p>Statut : {{ status }}</p>
+<a routerLink="/appareils">Retour à la liste</a>
+</div>
+<div *ngIf="!trouve"> Appareil n'existe pas</div>
